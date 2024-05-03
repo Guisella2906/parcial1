@@ -1,0 +1,103 @@
+header {
+    background: #015b81;
+    padding: 0%;
+    margin: auto;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+.caja img{
+    width: 500px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.caja{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    
+}
+.cajacont h7{
+    font-weight: bold;
+}
+
+.cajacont {
+    margin-left: 30px;
+}
+
+a{
+    color: black;
+}
+
+.cajacont h7, p,a {
+    display: inline-block; 
+    margin-left: 0px; 
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+.abajo p {
+    display: block; 
+    margin-top: 0px;
+
+}
+
+
+footer{
+    background: #015b81;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.fotoperfil img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.cajacont {
+    text-align: left;
+    margin: 5px;
+}
+
+
+footer {
+    padding: 10px 0;
+}
+
+
+}
